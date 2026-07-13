@@ -1,0 +1,153 @@
+/* ==========================================================================
+   variables.css — Design Tokens
+   Default theme is Light Mode. Toggle puts dark-mode class on body.
+   ========================================================================== */
+
+:root {
+  /* ── Typography (Consistent across themes) ────────────────────────── */
+  --font-heading:      'Space Grotesk', system-ui, sans-serif;
+  --font-body:         'Inter', system-ui, sans-serif;
+  --font-mono:         'JetBrains Mono', 'Fira Code', monospace;
+
+  --fs-xs:    0.75rem;    /* 12px */
+  --fs-sm:    0.875rem;   /* 14px */
+  --fs-base:  1rem;       /* 16px */
+  --fs-md:    1.125rem;   /* 18px */
+  --fs-lg:    1.25rem;    /* 20px */
+  --fs-xl:    1.5rem;     /* 24px */
+  --fs-2xl:   1.875rem;   /* 30px */
+  --fs-3xl:   2.25rem;    /* 36px */
+  --fs-4xl:   3rem;       /* 48px */
+  --fs-5xl:   3.75rem;    /* 60px */
+  --fs-6xl:   4.5rem;     /* 72px */
+
+  --fw-normal:  400;
+  --fw-medium:  500;
+  --fw-semi:    600;
+  --fw-bold:    700;
+  --fw-extra:   800;
+
+  --lh-tight:   1.2;
+  --lh-snug:    1.375;
+  --lh-normal:  1.5;
+  --lh-relaxed: 1.625;
+  --lh-loose:   2;
+
+  --ls-tight:  -0.025em;
+  --ls-normal:  0;
+  --ls-wide:    0.025em;
+  --ls-wider:   0.05em;
+
+  /* ── Spacing ─────────────────────────────────────────────────────── */
+  --sp-1:   0.25rem;
+  --sp-2:   0.5rem;
+  --sp-3:   0.75rem;
+  --sp-4:   1rem;
+  --sp-5:   1.25rem;
+  --sp-6:   1.5rem;
+  --sp-8:   2rem;
+  --sp-10:  2.5rem;
+  --sp-12:  3rem;
+  --sp-16:  4rem;
+  --sp-20:  5rem;
+  --sp-24:  6rem;
+  --sp-32:  8rem;
+
+  /* ── Borders ─────────────────────────────────────────────────────── */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   12px;   /* Clean card rounded corners: between 10px-14px */
+  --radius-xl:   14px;
+  --radius-2xl:  14px;
+  --radius-full: 9999px;
+
+  /* ── Transitions ─────────────────────────────────────────────────── */
+  --ease-out:    cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --duration-fast:   150ms;
+  --duration-normal: 250ms;
+  --duration-slow:   400ms;
+  --duration-slower: 600ms;
+
+  --transition-base: all var(--duration-normal) var(--ease-in-out);
+
+  /* ── Layout ──────────────────────────────────────────────────────── */
+  --container-max: 1100px; /* Elegant, slightly narrower for better text measure */
+  --container-pad: var(--sp-6);
+  --navbar-h:      72px;
+  --section-gap:   var(--sp-24); /* Good breathing space */
+
+  /* ── Z-index ─────────────────────────────────────────────────────── */
+  --z-base:    0;
+  --z-card:    10;
+  --z-sticky:  100;
+  --z-overlay: 200;
+  --z-modal:   300;
+  --z-toast:   400;
+
+  /* ── LIGHT THEME (Default) ───────────────────────────────────────── */
+  --bg-primary:        #FFFFFF;
+  --bg-secondary:      #FFFFFF;
+  --bg-card:           #FFFFFF;
+  --bg-card-hover:     #FFFFFF;
+
+  --border-subtle:     #E5E7EB;
+  --border-strong:     #D1D5DB;
+  --border-accent:     #16A34A;
+
+  --text-primary:      #111827;
+  --text-secondary:    #6B7280;
+  --text-muted:        #9CA3AF;
+  --text-accent:       #16A34A;
+
+  --accent:            #16A34A;
+  --accent-hover:      #15803D;
+  --accent-dim:        rgba(22, 163, 74, 0.08);
+
+  --success:           #16A34A;
+  --success-dim:       rgba(22, 163, 74, 0.08);
+  --danger:            #DC2626;
+  --warning:           #D97706;
+
+  --shadow-sm:         0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md:         0 4px 10px rgba(0, 0, 0, 0.03), 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-lg:         0 10px 20px rgba(0, 0, 0, 0.04), 0 2px 5px rgba(0, 0, 0, 0.02);
+  --shadow-xl:         0 16px 32px rgba(0, 0, 0, 0.05), 0 4px 10px rgba(0, 0, 0, 0.02);
+  --shadow-accent:     none;
+  --shadow-glow:       none;
+}
+
+/* ── DARK THEME ────────────────────────────────────────────────────── */
+body.dark-mode {
+  --bg-primary:        #0F172A;
+  --bg-secondary:      #0F172A;
+  --bg-card:           #111827;
+  --bg-card-hover:     #111827;
+
+  --border-subtle:     rgba(255, 255, 255, 0.08);
+  --border-strong:     rgba(255, 255, 255, 0.15);
+  --border-accent:     #22C55E;
+
+  --text-primary:      #F8FAFC;
+  --text-secondary:    #CBD5E1;
+  --text-muted:        #64748B;
+  --text-accent:       #22C55E;
+
+  --accent:            #22C55E;
+  --accent-hover:      #4ADE80;
+  --accent-dim:        rgba(34, 197, 94, 0.12);
+
+  --success:           #22C55E;
+  --success-dim:       rgba(34, 197, 94, 0.12);
+  --danger:            #EF4444;
+  --warning:           #F59E0B;
+
+  --shadow-sm:         0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-md:         0 4px 10px rgba(0, 0, 0, 0.3);
+  --shadow-lg:         0 10px 20px rgba(0, 0, 0, 0.3);
+  --shadow-xl:         0 16px 32px rgba(0, 0, 0, 0.4);
+  --shadow-accent:     none;
+  --shadow-glow:       none;
+}

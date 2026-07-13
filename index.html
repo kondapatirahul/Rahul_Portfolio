@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- ── Primary Meta ── -->
+  <title>Kondapati Rahul — Aspiring SDET & Software Engineer</title>
+  <meta name="description"
+    content="Portfolio of Kondapati Rahul — Aspiring Software Development Engineer in Test (SDET), QA Automation Engineer, and Full Stack Developer. B.Tech CS student at VVIT, Guntur." />
+  <meta name="keywords"
+    content="Kondapati Rahul, SDET, QA Automation, Software Testing, Selenium, Postman, Full Stack Developer, Java, Python, JavaScript, Portfolio" />
+  <meta name="author" content="Kondapati Rahul" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://kondapatirahul.github.io/Rahul_Portfolio/" />
+
+  <!-- ── Open Graph ── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kondapati Rahul — Aspiring SDET & Software Engineer" />
+  <meta property="og:description"
+    content="Portfolio of Kondapati Rahul — SDET, QA Automation Engineer, and Full Stack Developer." />
+  <meta property="og:url" content="https://kondapatirahul.github.io/Rahul_Portfolio/" />
+  <meta property="og:image" content="https://kondapatirahul.github.io/Rahul_Portfolio/assets/images/profile.webp" />
+  <meta property="og:site_name" content="Kondapati Rahul Portfolio" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- ── Twitter Card ── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Kondapati Rahul — Aspiring SDET & Software Engineer" />
+  <meta name="twitter:description"
+    content="Portfolio of Kondapati Rahul — SDET, QA Automation Engineer, and Full Stack Developer." />
+  <meta name="twitter:image" content="https://kondapatirahul.github.io/Rahul_Portfolio/assets/images/profile.webp" />
+
+  <!-- ── Favicon ── -->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="apple-touch-icon" href="assets/images/profile.webp" />
+
+  <!-- ── Google Fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+
+  <!-- ── CSS ── -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/utilities.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <!-- ── Theme Color ── -->
+  <meta name="theme-color" content="#050816" />
+</head>
+
+<body>
+
+  <!-- ════════════════════════════════════════════════════════════════════════
+     NAVBAR
+     ════════════════════════════════════════════════════════════════════════ -->
+  <header>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="navbar__inner">
+
+        <!-- Logo -->
+        <a href="#hero" class="navbar__logo" aria-label="Kondapati Rahul — Home">
+          KR<span>.</span>
+        </a>
+
+        <!-- Desktop Links -->
+        <ul class="navbar__links" role="list">
+          <li><a class="navbar__link" href="#about" data-section="about">About</a></li>
+          <li><a class="navbar__link" href="#skills" data-section="skills">Skills</a></li>
+          <li><a class="navbar__link" href="#projects" data-section="projects">Projects</a></li>
+          <li><a class="navbar__link" href="#internship" data-section="internship">Experience</a></li>
+          <li><a class="navbar__link" href="#education" data-section="education">Education</a></li>
+          <li><a class="navbar__link" href="#certifications" data-section="certifications">Certifications</a></li>
+          <li><a class="navbar__link" href="#contact" data-section="contact">Contact</a></li>
+        </ul>
+
+        <!-- CTA -->
+        <a href="assets/resume/resume.pdf" download class="navbar__cta" aria-label="Download Resume PDF">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          Resume
+        </a>
+
+        <!-- Mobile Hamburger -->
+        <button class="navbar__hamburger" aria-expanded="false" aria-label="Open menu" aria-controls="mobile-menu"
+          id="hamburger-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <!-- Mobile Drawer -->
+      <nav class="navbar__mobile" id="mobile-menu" role="navigation" aria-label="Mobile navigation">
+        <a class="navbar__link" href="#about" data-section="about">About</a>
+        <a class="navbar__link" href="#skills" data-section="skills">Skills</a>
+        <a class="navbar__link" href="#projects" data-section="projects">Projects</a>
+        <a class="navbar__link" href="#internship" data-section="internship">Experience</a>
+        <a class="navbar__link" href="#education" data-section="education">Education</a>
+        <a class="navbar__link" href="#certifications" data-section="certifications">Certifications</a>
+        <a class="navbar__link" href="#hackathons" data-section="hackathons">Hackathons</a>
+        <a class="navbar__link" href="#profiles" data-section="profiles">Profiles</a>
+        <a class="navbar__link" href="#contact" data-section="contact">Contact</a>
+      </nav>
+    </nav>
+  </header>
+
+
+  <!-- ════════════════════════════════════════════════════════════════════════
+     SECTION 1 — HERO
+     ════════════════════════════════════════════════════════════════════════ -->
+  <main>
+    <section class="hero" id="hero" aria-label="Hero — Introduction">
+
+      <!-- Background Orbs -->
+      <div class="hero__bg-orb hero__bg-orb--1" aria-hidden="true"></div>
+      <div class="hero__bg-orb hero__bg-orb--2" aria-hidden="true"></div>
+
+      <div class="hero__inner">
+
+        <!-- ── Left: Content ── -->
+        <div class="hero__content">
+
+          <!-- Availability Badge -->
+          <div class="hero__badge" role="status" aria-label="Availability status">
+            <span class="hero__badge-dot status-dot" aria-hidden="true"></span>
+            <span class="hero__badge-text">Open to Internships &amp; Full-Time Opportunities</span>
+          </div>
+
+          <!-- Name -->
+          <h1 class="hero__name">Kondapati<br />Rahul</h1>
+
+          <!-- Typing Role -->
+          <div class="hero__role" aria-live="polite" aria-label="Current role">
+            <span id="typing-role" aria-label="Role rotating text"></span>
+          </div>
+
+          <!-- Description -->
+          <p class="hero__desc">
+            Passionate Computer Science student specialising in Software Testing, QA Automation,
+            API Testing, and Full Stack Development. I enjoy building reliable software, automating
+            quality assurance workflows, and solving real-world engineering problems through clean,
+            scalable solutions.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="hero__actions">
+            <a href="assets/resume/resume.pdf" download class="btn btn--primary"
+              aria-label="Download Rahul's Resume PDF">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Download Resume
+            </a>
+            <a href="#projects" class="btn btn--outline" aria-label="View my projects">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+              </svg>
+              View Projects
+            </a>
+          </div>
+
+          <!-- Social Icons -->
+          <div class="hero__socials" role="list" aria-label="Social media links">
+
+            <a href="https://github.com/kondapatirahul" target="_blank" rel="noopener noreferrer"
+              class="hero__social-link" role="listitem" aria-label="GitHub profile">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483
+                     0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466
+                     -1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53
+                     2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951
+                     0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026
+                     A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027
+                     2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339
+                     4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0
+                     .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+              </svg>
+            </a>
+
+            <a href="https://linkedin.com/in/rahulkondapati" target="_blank" rel="noopener noreferrer"
+              class="hero__social-link" role="listitem" aria-label="LinkedIn profile">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7
+                     a6 6 0 0 1 6-6zM2 9h4v12H2z" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+
+            <a href="https://leetcode.com/u/Rahul_kondapati/" target="_blank" rel="noopener noreferrer"
+              class="hero__social-link" role="listitem" aria-label="LeetCode profile">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126
+                     a5.295 5.295 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0
+                     0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271
+                     1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392
+                     c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392
+                     a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193
+                     c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523
+                     2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27
+                     4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384
+                     0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202
+                     l2.015-2.158A1.384 1.384 0 0 0 13.483 0z" />
+              </svg>
+            </a>
+
+            <a href="https://www.codechef.com/users/vvit24bq5a0510" target="_blank" rel="noopener noreferrer"
+              class="hero__social-link" role="listitem" aria-label="CodeChef profile">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M11.257.004C5.22.004.35 4.807.35 10.765c0 5.957 4.87 10.76
+                     10.907 10.76 6.038 0 10.907-4.803 10.907-10.76C22.164 4.807
+                     17.295.004 11.257.004zm0 1.8c5.024 0 9.107 4.012 9.107 8.961
+                     0 4.95-4.083 8.962-9.107 8.962-5.023 0-9.107-4.012-9.107-8.962
+                     0-4.949 4.084-8.961 9.107-8.961zm-.508 3.32c-1.65 0-3.163.576
+                     -4.217 1.542-.26.237-.26.634 0 .87l.37.338a.615.615 0 0 0
+                     .87-.027c.77-.798 1.86-1.27 3.058-1.27 1.14 0 2.183.424 2.944
+                     1.155l.372-.339a.614.614 0 0 0 .026-.87c-1.003-.965-2.41-1.399
+                     -3.423-1.399zm.508 2.49c-.876 0-1.59.71-1.59 1.585 0 .876.714
+                     1.585 1.59 1.585.877 0 1.591-.71 1.591-1.585 0-.876-.714-1.585
+                     -1.59-1.585z" />
+              </svg>
+            </a>
+
+            <a href="https://www.hackerrank.com/profile/k9896763" target="_blank" rel="noopener noreferrer"
+              class="hero__social-link" role="listitem" aria-label="HackerRank profile">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 0c1.285 0 9.75 4.886 10.392 6 .642 1.114.642 10.886 0
+                     12C21.75 19.114 13.285 24 12 24c-1.285 0-9.75-4.886-10.392-6
+                     C.966 16.886.966 7.114 1.608 6 2.25 4.886 10.715 0 12 0zm2.295
+                     6.799c-.141 0-.258.115-.258.258v1.601H9.963V7.057a.258.258 0 0
+                     0-.516 0v9.885c0 .143.116.258.258.258.143 0 .258-.115.258-.258v
+                     -3.874h4.074v3.874c0 .143.115.258.258.258.142 0 .258-.115.258
+                     -.258V7.057a.26.26 0 0 0-.258-.258zm-2.04 1.859h.618l-1.197
+                     2.434 1.27 2.566h-.633l-.96-1.957-.961 1.957h-.633l1.271-2.566
+                     -1.197-2.434h.617l.902 1.848z" />
+              </svg>
+            </a>
+
+            <a href="mailto:kondapatirahul@gmail.com" class="hero__social-link" role="listitem"
+              aria-label="Send an email to Rahul">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+            </a>
+
+          </div><!-- /.hero__socials -->
+        </div><!-- /.hero__content -->
+
+
+        <!-- ── Right: Profile Visual ── -->
+        <div class="hero__visual" aria-hidden="true">
+          <div class="hero__profile-wrap">
+            <div class="hero__profile-ring"></div>
+
+            <!-- Profile image — replace with your actual photo -->
+            <img class="hero__profile-img" src="assets/images/profile.png" alt="Kondapati Rahul — Professional Photo"
+              loading="eager" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="hero__profile-fallback" style="display:none;" aria-hidden="true">KR</div>
+
+            <!-- Floating stat cards
+        <div class="hero__stat-card hero__stat-card--1">
+          <div class="hero__stat-card-icon hero__stat-card-icon--green" aria-hidden="true">✅</div>
+          <div>
+            <div class="hero__stat-card-label">QA Intern</div>
+            <div class="hero__stat-card-value">6 Months Exp.</div>
+          </div>
+        </div>
+        <div class="hero__stat-card hero__stat-card--2">
+          <div class="hero__stat-card-icon hero__stat-card-icon--blue" aria-hidden="true">🎯</div>
+          <div>
+            <div class="hero__stat-card-label">CGPA</div>
+            <div class="hero__stat-card-value">8.0 / 10</div>
+          </div>
+        </div> -->
+
+          </div>
+        </div>
+
+      </div><!-- /.hero__inner -->
+
+      <!-- Scroll Indicator -->
+      <div class="hero__scroll scroll-indicator" aria-hidden="true">
+        <span class="hero__scroll-label">Scroll</span>
+        <div class="hero__scroll-mouse"></div>
+      </div>
+
+    </section>
+
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+     SECTION 2 — ABOUT
+     ════════════════════════════════════════════════════════════════════════ -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about__grid">
+
+          <!-- Left -->
+          <div class="about__left reveal">
+            <span class="section-label">About Me</span>
+            <h2 class="about__heading" id="about-title">
+              Building Quality<br />into Every Line
+            </h2>
+            <p class="about__text">
+              I'm Rahul, a third-year B.Tech Computer Science student at VVIT, Guntur — passionate
+              about making software work correctly, reliably, and efficiently. My primary focus is
+              on Software Testing and QA Automation, where I believe quality is not an afterthought
+              but a core engineering discipline.
+            </p>
+            <p class="about__text">
+              Beyond testing, I build full-stack applications that solve real problems — from
+              examination management systems to AI-powered study tools. I follow Agile principles,
+              document everything clearly, and take pride in writing clean, maintainable code whether
+              it's a test script or a feature module.
+            </p>
+            <p class="about__text">
+              I'm actively seeking internships and full-time opportunities where I can contribute
+              to QA automation, help teams ship reliable software, and grow alongside experienced
+              engineers at leading product companies.
+            </p>
+
+            <!-- Stats -->
+            <div class="about__stats">
+              <div class="about__stat reveal-scale delay-1">
+                <div class="about__stat-value" data-counter="6" data-suffix="+">0+</div>
+                <div class="about__stat-label">Projects Built</div>
+              </div>
+              <div class="about__stat reveal-scale delay-2">
+                <div class="about__stat-value" data-counter="6" data-suffix=" mo">0</div>
+                <div class="about__stat-label">Internship Experience</div>
+              </div>
+              <div class="about__stat reveal-scale delay-3">
+                <div class="about__stat-value" data-counter="8.0" data-suffix="">0</div>
+                <div class="about__stat-label">CGPA (out of 10)</div>
+              </div>
+              <div class="about__stat reveal-scale delay-4">
+                <div class="about__stat-value" data-counter="3" data-suffix="+">0+</div>
+                <div class="about__stat-label">Hackathons Participated</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right -->
+          <div class="about__right">
+
+            <div class="about__info-card reveal delay-1">
+              <h3 class="about__info-card-title">
+                <span>🎓</span> Currently Studying
+              </h3>
+              <ul class="about__info-list" role="list">
+                <li class="about__info-item">B.Tech Computer Science &amp; Engineering</li>
+                <li class="about__info-item">Vasireddy Venkatadri Institute of Technology (VVIT), Guntur</li>
+                <li class="about__info-item">Expected Graduation: 2027</li>
+                <li class="about__info-item">Current CGPA: 8.0 / 10</li>
+              </ul>
+            </div>
+
+            <div class="about__info-card reveal delay-2">
+              <h3 class="about__info-card-title">
+                <span>🔍</span> Areas of Focus
+              </h3>
+              <ul class="about__info-list" role="list">
+                <li class="about__info-item">QA Automation (Selenium, Postman, JMeter)</li>
+                <li class="about__info-item">SDLC, STLC, Agile &amp; Scrum methodologies</li>
+                <li class="about__info-item">Full Stack Web Development</li>
+                <li class="about__info-item">Data Structures &amp; Algorithms</li>
+              </ul>
+            </div>
+
+            <div class="about__info-card reveal delay-3">
+              <h3 class="about__info-card-title">
+                <span>📍</span> Quick Info
+              </h3>
+              <ul class="about__info-list" role="list">
+                <li class="about__info-item">Location: Guntur, Andhra Pradesh, India</li>
+                <li class="about__info-item">Email: kondapatirahul@gmail.com</li>
+                <li class="about__info-item">Languages: English, Telugu, Hindi</li>
+                <li class="about__info-item">Availability: Immediately Available</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+     SECTION 3 — SKILLS
+     ════════════════════════════════════════════════════════════════════════ -->
+    <section class="section skills" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Skills</span>
+          <h2 class="section-title" id="skills-title">Technical Expertise</h2>
+          <p class="section-desc">A curated set of tools, technologies, and methodologies I actively apply.</p>
+        </div>
+
+        <div class="skills__grid">
+
+          <!-- Testing & Automation -->
+          <div class="skill-card reveal delay-1">
+            <div class="skill-card__header">
+              <div class="skill-card__icon" aria-hidden="true">🧪</div>
+              <span class="skill-card__title">Testing &amp; Automation</span>
+              <span class="skill-card__count">6 tools</span>
+            </div>
+            <div class="skill-card__items" role="list">
+              <span class="skill-item" role="listitem"><span class="skill-item__dot" aria-hidden="true"></span>Selenium
+                WebDriver</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>Postman</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>JMeter</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot" aria-hidden="true"></span>Manual
+                Testing</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>TestNG</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>Playwright <em style="font-style:normal;opacity:.6">(Learning)</em></span>
+            </div>
+          </div>
+
+          <!-- Programming -->
+          <div class="skill-card reveal delay-2">
+            <div class="skill-card__header">
+              <div class="skill-card__icon" aria-hidden="true">💻</div>
+              <span class="skill-card__title">Programming Languages</span>
+              <span class="skill-card__count">5 languages</span>
+            </div>
+            <div class="skill-card__items" role="list">
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>Java</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>JavaScript</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>Python</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>SQL</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>Node.js</span>
+            </div>
+          </div>
+
+          <!-- Testing Knowledge -->
+          <div class="skill-card reveal delay-3">
+            <div class="skill-card__header">
+              <div class="skill-card__icon" aria-hidden="true">📋</div>
+              <span class="skill-card__title">QA Knowledge</span>
+              <span class="skill-card__count">7 concepts</span>
+            </div>
+            <div class="skill-card__items" role="list">
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>SDLC</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>STLC</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot" aria-hidden="true"></span>Agile /
+                Scrum</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot" aria-hidden="true"></span>Test
+                Planning</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot" aria-hidden="true"></span>Bug
+                Reporting</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>Jira</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot" aria-hidden="true"></span>API
+                Testing</span>
+            </div>
+          </div>
+
+          <!-- Developer Tools -->
+          <div class="skill-card reveal delay-1">
+            <div class="skill-card__header">
+              <div class="skill-card__icon" aria-hidden="true">🔧</div>
+              <span class="skill-card__title">Developer Tools</span>
+              <span class="skill-card__count">5 tools</span>
+            </div>
+            <div class="skill-card__items" role="list">
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>Git</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>GitHub</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot" aria-hidden="true"></span>GitHub
+                Actions</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot" aria-hidden="true"></span>VS
+                Code</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>Maven</span>
+            </div>
+          </div>
+
+          <!-- Databases -->
+          <div class="skill-card reveal delay-2">
+            <div class="skill-card__header">
+              <div class="skill-card__icon" aria-hidden="true">🗄️</div>
+              <span class="skill-card__title">Databases</span>
+              <span class="skill-card__count">2 databases</span>
+            </div>
+            <div class="skill-card__items" role="list">
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>MySQL</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot" aria-hidden="true"></span>SQL
+                (Queries, Joins)</span>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skill-card reveal delay-3">
+            <div class="skill-card__header">
+              <div class="skill-card__icon" aria-hidden="true">🌟</div>
+              <span class="skill-card__title">Soft Skills</span>
+              <span class="skill-card__count">5 qualities</span>
+            </div>
+            <div class="skill-card__items" role="list">
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>Analytical Thinking</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>Communication</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>Teamwork</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot"
+                  aria-hidden="true"></span>Adaptability</span>
+              <span class="skill-item" role="listitem"><span class="skill-item__dot" aria-hidden="true"></span>Attention
+                to Detail</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+     SECTION 4 — PROJECTS
+     ════════════════════════════════════════════════════════════════════════ -->
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Projects</span>
+          <h2 class="section-title" id="projects-title">Featured Work</h2>
+          <p class="section-desc">
+            A selection of projects spanning QA automation, full-stack development, and software engineering.
+          </p>
+        </div>
+
+        <!-- Cards rendered by projects.js -->
+        <div class="projects__grid" id="projects-grid" role="list" aria-label="Project list">
+          <!-- Dynamic content injected by JS -->
+        </div>
+
+        <div style="text-align:center; margin-top: var(--sp-10);" class="reveal">
+          <a href="https://github.com/kondapatirahul" target="_blank" rel="noopener noreferrer" class="btn btn--outline"
+            aria-label="View all projects on GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true">
+              <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483
+                   0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466
+                   -1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53
+                   2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951
+                   0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026
+                   A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027
+                   2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848
+                   -2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0
+                   .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+            </svg>
+            View All on GitHub
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+     SECTION 5 — INTERNSHIP / EXPERIENCE
+     ════════════════════════════════════════════════════════════════════════ -->
+    <section class="section internship" id="internship" aria-labelledby="exp-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Experience</span>
+          <h2 class="section-title" id="exp-title">Professional Experience</h2>
+          <p class="section-desc">Real-world experience contributing to quality assurance in a professional environment.
+          </p>
+        </div>
+
+        <div class="timeline" role="list">
+          <div class="timeline__item reveal" role="listitem">
+            <div class="timeline__dot" aria-hidden="true"></div>
+            <div class="timeline__card">
+              <div class="timeline__header">
+                <div>
+                  <h3 class="timeline__title">Quality Assurance Intern</h3>
+                  <div class="timeline__company">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                      aria-hidden="true">
+                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                    </svg>
+                    Apex CoVantage Solutions
+                  </div>
+                </div>
+                <div class="timeline__period" aria-label="Duration: December 2023 to May 2024">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    aria-hidden="true">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                    <line x1="16" y1="2" x2="16" y2="6" />
+                    <line x1="8" y1="2" x2="8" y2="6" />
+                    <line x1="3" y1="10" x2="21" y2="10" />
+                  </svg>
+                  Dec 2023 – May 2024
+                </div>
+              </div>
+
+              <ul class="timeline__duties" role="list" aria-label="Responsibilities">
+                <li class="timeline__duty" role="listitem">
+                  <span class="timeline__duty-icon" aria-hidden="true">▹</span>
+                  Performed comprehensive QA checks on digitised publishing content, ensuring accuracy and
+                  formatting consistency across thousands of documents.
+                </li>
+                <li class="timeline__duty" role="listitem">
+                  <span class="timeline__duty-icon" aria-hidden="true">▹</span>
+                  Utilised Jira for end-to-end issue tracking — from defect logging and assignment to
+                  resolution verification and closure.
+                </li>
+                <li class="timeline__duty" role="listitem">
+                  <span class="timeline__duty-icon" aria-hidden="true">▹</span>
+                  Conducted thorough testing of PDF outputs, validating content fidelity, layout integrity,
+                  and accessibility compliance.
+                </li>
+                <li class="timeline__duty" role="listitem">
+                  <span class="timeline__duty-icon" aria-hidden="true">▹</span>
+                  Executed SQL queries to verify data integrity and cross-check backend records with
+                  front-end outputs.
+                </li>
+                <li class="timeline__duty" role="listitem">
+                  <span class="timeline__duty-icon" aria-hidden="true">▹</span>
+                  Collaborated across cross-functional teams to ensure timely and high-quality content
+                  delivery, meeting production deadlines.
+                </li>
+                <li class="timeline__duty" role="listitem">
+                  <span class="timeline__duty-icon" aria-hidden="true">▹</span>
+                  Used Adobe Photoshop for image quality verification and minor corrections in digitised assets.
+                </li>
+                <li class="timeline__duty" role="listitem">
+                  <span class="timeline__duty-icon" aria-hidden="true">▹</span>
+                  Contributed to production quality verification workflows, improving overall team output
+                  accuracy and reducing re-work cycles.
+                </li>
+              </ul>
+
+              <div style="margin-top: var(--sp-4); display:flex; flex-wrap:wrap; gap: var(--sp-2);"
+                aria-label="Tools used">
+                <span class="tag">Jira</span>
+                <span class="tag">SQL</span>
+                <span class="tag">Adobe Photoshop</span>
+                <span class="tag">Manual QA</span>
+                <span class="tag">PDF Testing</span>
+                <span class="tag">Content QA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+     SECTION 6 — EDUCATION
+     ════════════════════════════════════════════════════════════════════════ -->
+    <section class="section education" id="education" aria-labelledby="edu-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Education</span>
+          <h2 class="section-title" id="edu-title">Academic Background</h2>
+          <p class="section-desc">A strong academic foundation across computer science, engineering, and mathematics.
+          </p>
+        </div>
+
+        <div class="education__grid">
+
+          <!-- B.Tech -->
+          <div class="edu-card reveal">
+            <div class="edu-card__icon" aria-hidden="true">🎓</div>
+            <div class="edu-card__info">
+              <h3 class="edu-card__degree">B.Tech — Computer Science &amp; Engineering</h3>
+              <div class="edu-card__institution">Vasireddy Venkatadri Institute of Technology (VVIT)</div>
+              <div class="edu-card__meta">
+                <span class="edu-card__meta-item">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    aria-hidden="true">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                    <line x1="16" y1="2" x2="16" y2="6" />
+                    <line x1="8" y1="2" x2="8" y2="6" />
+                    <line x1="3" y1="10" x2="21" y2="10" />
+                  </svg>
+                  2023 – 2027 (Expected)
+                </span>
+                <span class="edu-card__meta-item">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    aria-hidden="true">
+                    <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Guntur, Andhra Pradesh
+                </span>
+                <span class="edu-card__score" aria-label="CGPA: 8.0 out of 10">CGPA: 8.0 / 10</span>
+              </div>
+              <div class="edu-card__coursework">
+                <div class="edu-card__coursework-label">Relevant Coursework</div>
+                <div class="edu-card__courses">
+                  <span class="tag">Software Engineering</span>
+                  <span class="tag">Data Structures &amp; Algorithms</span>
+                  <span class="tag">DBMS</span>
+                  <span class="tag">Operating Systems</span>
+                  <span class="tag">Computer Networks</span>
+                  <span class="tag">Object-Oriented Programming</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Diploma -->
+          <div class="edu-card reveal delay-1">
+            <div class="edu-card__icon" aria-hidden="true">📜</div>
+            <div class="edu-card__info">
+              <h3 class="edu-card__degree">Diploma — Computer Engineering</h3>
+              <div class="edu-card__institution">Kallam Haranadha Reddy Institute of Technology</div>
+              <div class="edu-card__meta">
+                <span class="edu-card__meta-item">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    aria-hidden="true">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                    <line x1="16" y1="2" x2="16" y2="6" />
+                    <line x1="8" y1="2" x2="8" y2="6" />
+                    <line x1="3" y1="10" x2="21" y2="10" />
+                  </svg>
+                  Completed July 2024
+                </span>
+                <span class="edu-card__score" aria-label="Score: 88 percent">Score: 88%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- SSC -->
+          <div class="edu-card reveal delay-2">
+            <div class="edu-card__icon" aria-hidden="true">🏫</div>
+            <div class="edu-card__info">
+              <h3 class="edu-card__degree">Secondary School Certificate (SSC)</h3>
+              <div class="edu-card__institution">SCMPMC High School</div>
+              <div class="edu-card__meta">
+                <span class="edu-card__meta-item">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    aria-hidden="true">
+                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                    <line x1="16" y1="2" x2="16" y2="6" />
+                    <line x1="8" y1="2" x2="8" y2="6" />
+                    <line x1="3" y1="10" x2="21" y2="10" />
+                  </svg>
+                  Completed April 2021
+                </span>
+                <span class="edu-card__score" aria-label="Score: 99 percent">Score: 99%</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+     SECTION 7 — CERTIFICATIONS
+     ════════════════════════════════════════════════════════════════════════ -->
+    <section class="section certifications" id="certifications" aria-labelledby="cert-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Certifications</span>
+          <h2 class="section-title" id="cert-title">Verified Credentials</h2>
+          <p class="section-desc">Industry-recognised certifications validating skills across cloud, AI, and software
+            development.</p>
+        </div>
+
+        <!--
+      ╔══════════════════════════════════════════════════════════╗
+      ║  TO ADD A CERTIFICATION: copy one .cert-card block and  ║
+      ║  update the content inside. No JavaScript needed.       ║
+      ╚══════════════════════════════════════════════════════════╝
+    -->
+        <div class="certs__grid">
+
+          <div class="cert-card reveal delay-1">
+            <div class="cert-card__logo" aria-hidden="true">☁️</div>
+            <h3 class="cert-card__title">Microsoft Azure AI Fundamentals (AI-900)</h3>
+            <div class="cert-card__issuer">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              Microsoft
+            </div>
+            <div class="cert-card__date">Azure AI &amp; Machine Learning Fundamentals</div>
+          </div>
+
+          <div class="cert-card reveal delay-2">
+            <div class="cert-card__logo" aria-hidden="true">🌐</div>
+            <h3 class="cert-card__title">Cisco IT Essentials</h3>
+            <div class="cert-card__issuer">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              Cisco Networking Academy
+            </div>
+            <div class="cert-card__date">Hardware, Software &amp; Networking Fundamentals</div>
+          </div>
+
+          <div class="cert-card reveal delay-3">
+            <div class="cert-card__logo" aria-hidden="true">🤖</div>
+            <h3 class="cert-card__title">Introduction to Generative AI</h3>
+            <div class="cert-card__issuer">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              Google Cloud / Coursera
+            </div>
+            <div class="cert-card__date">Generative AI, LLMs &amp; Prompt Engineering</div>
+          </div>
+
+          <div class="cert-card reveal delay-1">
+            <div class="cert-card__logo" aria-hidden="true">☕</div>
+            <h3 class="cert-card__title">Programming with Java</h3>
+            <div class="cert-card__issuer">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              NPTEL — IIT
+            </div>
+            <div class="cert-card__date">Java Programming &amp; OOP Principles</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+     SECTION 8 — HACKATHONS
+     ════════════════════════════════════════════════════════════════════════ -->
+    <section class="section hackathons" id="hackathons" aria-labelledby="hack-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Hackathons</span>
+          <h2 class="section-title" id="hack-title">Competitive Engineering</h2>
+          <p class="section-desc">Participating in hackathons to build real solutions under pressure and collaborate
+            with peers.</p>
+        </div>
+
+        <div class="hack__grid">
+
+          <article class="hack-card reveal delay-1">
+            <div class="hack-card__header">
+              <span class="hack-card__icon" aria-hidden="true">🚀</span>
+              <span class="hack-card__year">2024</span>
+            </div>
+            <h3 class="hack-card__name">Innovathon</h3>
+            <div class="hack-card__theme">Innovation &amp; Technology Solutions</div>
+            <p class="hack-card__project">
+              Developed an innovative technology solution addressing real-world challenges
+              in education and accessibility, demonstrating end-to-end problem-solving within a
+              time-constrained environment.
+            </p>
+            <span class="hack-card__role">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                <circle cx="12" cy="7" r="4" />
+              </svg>
+              Developer &amp; QA
+            </span>
+          </article>
+
+          <article class="hack-card reveal delay-2">
+            <div class="hack-card__header">
+              <span class="hack-card__icon" aria-hidden="true">🇮🇳</span>
+              <span class="hack-card__year">2024</span>
+            </div>
+            <h3 class="hack-card__name">Smart India Hackathon (SIH)</h3>
+            <div class="hack-card__theme">National-Level Problem Statement</div>
+            <p class="hack-card__project">
+              Participated in India's largest hackathon, collaborating on a government-issued
+              problem statement. Designed and developed a scalable solution with a cross-functional team
+              under the 24-hour challenge format.
+            </p>
+            <span class="hack-card__role">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                <circle cx="12" cy="7" r="4" />
+              </svg>
+              Full Stack Developer
+            </span>
+          </article>
+
+          <article class="hack-card reveal delay-3">
+            <div class="hack-card__header">
+              <span class="hack-card__icon" aria-hidden="true">⚡</span>
+              <span class="hack-card__year">2023</span>
+            </div>
+            <h3 class="hack-card__name">UDGAMA</h3>
+            <div class="hack-card__theme">College-Level Innovation Sprint</div>
+            <p class="hack-card__project">
+              Competed in the institution's annual innovation sprint, building a working prototype
+              within 12 hours. Focused on a digital solution for streamlining campus administrative
+              processes.
+            </p>
+            <span class="hack-card__role">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                <circle cx="12" cy="7" r="4" />
+              </svg>
+              Developer &amp; Presenter
+            </span>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+     SECTION 9 — CODING PROFILES
+     ════════════════════════════════════════════════════════════════════════ -->
+    <section class="section profiles" id="profiles" aria-labelledby="profiles-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Coding Profiles</span>
+          <h2 class="section-title" id="profiles-title">Find Me Online</h2>
+          <p class="section-desc">Platforms where I practice, compete, and connect with the developer community.</p>
+        </div>
+
+        <div class="profiles__grid">
+
+          <!-- GitHub -->
+          <a href="https://github.com/kondapatirahul" target="_blank" rel="noopener noreferrer"
+            class="profile-card reveal delay-1" aria-label="Visit GitHub profile">
+            <div class="profile-card__logo" style="background:rgba(255,255,255,.06);" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+                <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483
+                     0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466
+                     -1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53
+                     2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951
+                     0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026
+                     A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027
+                     2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848
+                     -2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747
+                     0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+              </svg>
+            </div>
+            <div class="profile-card__name">GitHub</div>
+            <div class="profile-card__desc">Open-source projects, automation frameworks, and portfolio repositories.
+            </div>
+            <span class="profile-card__link" aria-hidden="true">
+              github.com/kondapatirahul
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/in/rahulkondapati" target="_blank" rel="noopener noreferrer"
+            class="profile-card reveal delay-2" aria-label="Visit LinkedIn profile">
+            <div class="profile-card__logo" style="background:rgba(10,102,194,.15);" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="#0A66C2" width="28" height="28">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </div>
+            <div class="profile-card__name">LinkedIn</div>
+            <div class="profile-card__desc">Professional network, achievements, and career updates.</div>
+            <span class="profile-card__link" aria-hidden="true">
+              linkedin.com/in/rahulkondapati
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+
+          <!-- LeetCode -->
+          <a href="https://leetcode.com/u/Rahul_kondapati/" target="_blank" rel="noopener noreferrer"
+            class="profile-card reveal delay-3" aria-label="Visit LeetCode profile">
+            <div class="profile-card__logo" style="background:rgba(255,161,22,.1);" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="#FFA116" width="28" height="28">
+                <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.295 5.295 0
+                     0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83
+                     5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038
+                     c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955
+                     a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l
+                     -.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1
+                     .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27
+                     4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0
+                     -.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384
+                     1.384 0 0 0 13.483 0z" />
+              </svg>
+            </div>
+            <div class="profile-card__name">LeetCode</div>
+            <div class="profile-card__desc">Algorithmic problem-solving and data structures practice.</div>
+            <span class="profile-card__link" aria-hidden="true">
+              leetcode.com/Rahul_kondapati
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+
+          <!-- CodeChef -->
+          <a href="https://www.codechef.com/users/vvit24bq5a0510" target="_blank" rel="noopener noreferrer"
+            class="profile-card reveal delay-1" aria-label="Visit CodeChef profile">
+            <div class="profile-card__logo" style="background:rgba(106,90,205,.12);" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="#6A5ACD" width="28" height="28">
+                <path d="M11.257.004C5.22.004.35 4.807.35 10.765c0 5.957 4.87 10.76 10.907 10.76
+                     6.038 0 10.907-4.803 10.907-10.76C22.164 4.807 17.295.004 11.257.004zm0 1.8
+                     c5.024 0 9.107 4.012 9.107 8.961 0 4.95-4.083 8.962-9.107 8.962
+                     -5.023 0-9.107-4.012-9.107-8.962 0-4.949 4.084-8.961 9.107-8.961z" />
+              </svg>
+            </div>
+            <div class="profile-card__name">CodeChef</div>
+            <div class="profile-card__desc">Competitive programming contests and coding challenges.</div>
+            <span class="profile-card__link" aria-hidden="true">
+              codechef.com/users/vvit24bq5a0510
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+
+          <!-- HackerRank -->
+          <a href="https://www.hackerrank.com/profile/k9896763" target="_blank" rel="noopener noreferrer"
+            class="profile-card reveal delay-2" aria-label="Visit HackerRank profile">
+            <div class="profile-card__logo" style="background:rgba(0,164,109,.12);" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="#00A46D" width="28" height="28">
+                <path d="M12 0c1.285 0 9.75 4.886 10.392 6 .642 1.114.642 10.886 0 12C21.75 19.114
+                     13.285 24 12 24c-1.285 0-9.75-4.886-10.392-6C.966 16.886.966 7.114 1.608 6
+                     2.25 4.886 10.715 0 12 0zm2.295 6.799c-.141 0-.258.115-.258.258v1.601H9.963V7.057
+                     a.258.258 0 0 0-.516 0v9.885c0 .143.116.258.258.258.143 0 .258-.115.258-.258v
+                     -3.874h4.074v3.874c0 .143.115.258.258.258.142 0 .258-.115.258-.258V7.057a.26.26
+                     0 0 0-.258-.258z" />
+              </svg>
+            </div>
+            <div class="profile-card__name">HackerRank</div>
+            <div class="profile-card__desc">Skill certifications and domain-specific problem solving.</div>
+            <span class="profile-card__link" aria-hidden="true">
+              hackerrank.com/k9896763
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+     SECTION 10 — RESUME
+     ════════════════════════════════════════════════════════════════════════ -->
+    <section class="section resume-section" id="resume" aria-labelledby="resume-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Resume</span>
+          <h2 class="section-title" id="resume-title">My Resume</h2>
+        </div>
+
+        <div class="resume__card reveal">
+          <div class="resume__icon" aria-hidden="true">📄</div>
+          <h3 class="resume__title">Kondapati Rahul</h3>
+          <p class="resume__desc">
+            A comprehensive overview of my education, internship experience, projects, skills,
+            and certifications — curated for SDET and software engineering opportunities.
+          </p>
+          <div class="resume__actions">
+            <a href="assets/resume/resume.pdf" download class="btn btn--primary" aria-label="Download resume as PDF">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                <polyline points="7 10 12 15 17 10" />
+                <line x1="12" y1="15" x2="12" y2="3" />
+              </svg>
+              Download Resume
+            </a>
+            <a href="assets/resume/resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn--outline"
+              aria-label="Preview resume in a new tab">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" aria-hidden="true">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+              Preview Online
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ════════════════════════════════════════════════════════════════════════
+     SECTION 11 — CONTACT
+     ════════════════════════════════════════════════════════════════════════ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Contact</span>
+          <h2 class="section-title" id="contact-title">Let's Connect</h2>
+          <p class="section-desc">Open to internships, full-time roles, and collaboration opportunities. Let's talk.</p>
+        </div>
+
+        <div class="contact__grid">
+
+          <!-- Left: Info -->
+          <div class="contact__left">
+            <h3 class="contact__heading">Ready to Work Together?</h3>
+            <p class="contact__sub">
+              Whether you're a recruiter with an opportunity, a developer with a project idea,
+              or a team looking for a quality-focused engineer — I'd love to hear from you.
+            </p>
+
+            <div class="contact__info" role="list">
+
+              <a href="tel:+919160370507" class="contact__info-item reveal" role="listitem" aria-label="Phone number">
+                <div class="contact__info-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0
+                         1 4.69 13.1a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.8 2.34h3a2 2 0 0 1
+                         2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9a16 16 0 0 0
+                         6.29 6.29l.92-.92a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1
+                         22 16.92z" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact__info-label">Phone</div>
+                  <div class="contact__info-value">+91 9160370507</div>
+                </div>
+              </a>
+
+              <a href="mailto:kondapatirahul@gmail.com" class="contact__info-item reveal delay-1" role="listitem"
+                aria-label="Email address">
+                <div class="contact__info-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact__info-label">Email</div>
+                  <div class="contact__info-value">kondapatirahul@gmail.com</div>
+                </div>
+              </a>
+
+              <div class="contact__info-item reveal delay-2" aria-label="Location">
+                <div class="contact__info-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact__info-label">Location</div>
+                  <div class="contact__info-value">Guntur, Andhra Pradesh, India</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right: Quick Links -->
+          <div class="contact__right reveal delay-1">
+            <h3 class="contact__right-title">Quick Connect</h3>
+            <div class="contact__links" role="list">
+
+              <a href="mailto:kondapatirahul@gmail.com" class="contact__link" role="listitem" aria-label="Send email">
+                <div class="contact__link-icon" style="background:rgba(234,68,53,.12);" aria-hidden="true">📧</div>
+                <div>
+                  <div class="contact__link-text">Send Email</div>
+                  <div style="font-size:var(--fs-xs);color:var(--text-muted)">kondapatirahul@gmail.com</div>
+                </div>
+              </a>
+
+              <a href="https://linkedin.com/in/rahulkondapati" target="_blank" rel="noopener noreferrer"
+                class="contact__link" role="listitem" aria-label="Connect on LinkedIn">
+                <div class="contact__link-icon" style="background:rgba(10,102,194,.12);" aria-hidden="true">💼</div>
+                <div>
+                  <div class="contact__link-text">Connect on LinkedIn</div>
+                  <div style="font-size:var(--fs-xs);color:var(--text-muted)">linkedin.com/in/rahulkondapati</div>
+                </div>
+              </a>
+
+              <a href="https://github.com/kondapatirahul" target="_blank" rel="noopener noreferrer"
+                class="contact__link" role="listitem" aria-label="Follow on GitHub">
+                <div class="contact__link-icon" style="background:rgba(255,255,255,.06);" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                    <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682
+                         -.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369
+                         -1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07
+                         1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636
+                         -1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103
+                         -.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12
+                         6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546
+                         1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695
+                         -4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0
+                         .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact__link-text">Follow on GitHub</div>
+                  <div style="font-size:var(--fs-xs);color:var(--text-muted)">github.com/kondapatirahul</div>
+                </div>
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ════════════════════════════════════════════════════════════════════════
+     SECTION 12 — FOOTER
+     ════════════════════════════════════════════════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer__inner">
+
+        <div class="footer__left">
+          <div class="footer__logo">KR<span>.</span></div>
+          <div class="footer__copy">
+            &copy; <span id="footer-year">2024</span> Kondapati Rahul. All rights reserved.
+          </div>
+          <div class="footer__copy" style="margin-top:4px;">
+            Built with HTML5, CSS3 &amp; Vanilla JavaScript.
+          </div>
+        </div>
+
+        <div class="footer__socials" role="list" aria-label="Social media links">
+          <a href="https://github.com/kondapatirahul" target="_blank" rel="noopener noreferrer" class="footer__social"
+            role="listitem" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483
+                     0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466
+                     -1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53
+                     2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951
+                     0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026
+                     A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027
+                     2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848
+                     -2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0
+                     .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z" />
+            </svg>
+          </a>
+          <a href="https://linkedin.com/in/rahulkondapati" target="_blank" rel="noopener noreferrer"
+            class="footer__social" role="listitem" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+          </a>
+          <a href="mailto:kondapatirahul@gmail.com" class="footer__social" role="listitem" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+          </a>
+          <a href="https://leetcode.com/u/Rahul_kondapati/" target="_blank" rel="noopener noreferrer"
+            class="footer__social" role="listitem" aria-label="LeetCode">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.295 5.295 0 0
+                     0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0
+                     0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165
+                     5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0
+                     0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193
+                     c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1
+                     .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48
+                     1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045
+                     -2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0z" />
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scroll to Top -->
+  <button id="scroll-top" aria-label="Scroll back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+      stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15" />
+    </svg>
+  </button>
+
+
+  <!-- ── JavaScript ── -->
+  <script src="js/typing.js"></script>
+  <script src="js/counters.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
