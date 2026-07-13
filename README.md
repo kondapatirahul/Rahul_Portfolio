@@ -61,8 +61,8 @@ Or use VS Code's **Live Server** extension for hot reload during development.
 ## ✏️ How to Personalise
 
 ### Add Your Profile Photo
-1. Export your photo as `profile.webp` (recommended: 400×400px, circular crop)
-2. Place it at `assets/images/profile.webp`
+1. Export your photo as `profile.png` (recommended: 400×400px, circular crop)
+2. Place it at `assets/images/profile.png`
 
 ### Add Your Resume
 1. Export your resume as `resume.pdf`
