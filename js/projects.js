@@ -18,37 +18,41 @@
       id: 'studyai',
       emoji: '🤖',
       title: 'StudyAI',
-      role: 'Full Stack Developer',
-      duration: '2024',
+      role: 'AI / Full Stack Developer',
+      duration: '2026',
       status: 'built',
-      description: 'An AI-powered study assistant that helps students generate summaries, quizzes, and flashcards from their study material using modern LLM APIs.',
+      category: 'AI / Full Stack',
+      description: 'An AI-powered study companion that helps students generate summaries, quizzes, and flashcards from their study material using modern LLM APIs.',
       features: [
         'AI-generated summaries and quizzes',
         'Flashcard system with spaced repetition',
         'Multi-format document upload',
         'Session progress tracking',
       ],
-      tech: ['JavaScript', 'Node.js', 'HTML5', 'CSS3', 'REST API', 'AI/LLM'],
+      tech: ['React.js', 'Flask', 'Firebase', 'Groq API', 'JavaScript', 'Python'],
       github: 'https://github.com/kondapatirahul/StudyAI-SmartBridge',
       demo: '',
+      doc: ''
     },
     {
       id: 'qa-framework',
       emoji: '🧪',
       title: 'Enterprise QA Automation Framework',
-      role: 'QA Automation Engineer',
-      duration: '2024',
+      role: 'QA Automation / Software Engineer',
+      duration: '2026',
       status: 'active',
+      category: 'QA Automation / Software Eng.',
       description: 'A robust Selenium-based test automation framework built with Java and the Page Object Model pattern. Supports parallel execution, detailed reporting, and CI/CD integration.',
       features: [
         'Page Object Model (POM) design pattern',
-        'TestNG parallel execution',
-        'Extent Reports with screenshots',
+        'TestNG parallel execution and regression testing',
+        'Extent Reports with automated screenshots',
         'GitHub Actions CI/CD integration',
       ],
-      tech: ['Java', 'Selenium WebDriver', 'TestNG', 'Maven', 'GitHub Actions', 'Extent Reports'],
+      tech: ['Java', 'Selenium WebDriver', 'TestNG', 'Maven', 'GitHub Actions', 'Postman'],
       github: 'https://github.com/kondapatirahul/enterprise-qa-automation-framework',
       demo: '',
+      doc: ''
     },
     {
       id: 'examination-cell',
@@ -57,60 +61,65 @@
       role: 'Full Stack Developer',
       duration: '2023',
       status: 'built',
+      category: 'Full Stack / Web App',
       description: 'A complete web-based examination management platform automating hall ticket generation, result processing, and student data management for academic institutions.',
       features: [
         'Automated hall ticket generation',
         'Result processing and grade calculation',
         'Admin and student dashboards',
-        'SQL-powered data management',
+        'SQL-powered relational data management',
       ],
       tech: ['HTML', 'CSS', 'JavaScript', 'Python', 'SQL', 'MySQL'],
       github: 'https://github.com/kondapatirahul/Examination-Cell-Management-System',
       demo: '',
+      doc: ''
     },
     {
-      id: 'village-portal',
-      emoji: '🏘️',
-      title: 'Village Development Information Portal',
+      id: 'eduride',
+      emoji: '🚌',
+      title: 'College Bus Tracking / Eduride',
       role: 'Full Stack Developer',
-      duration: '2023',
+      duration: '2025',
       status: 'built',
-      description: 'A citizen-facing information portal for rural village development data, providing access to schemes, announcements, and government services in a simple, accessible interface.',
+      category: 'Web / App Development',
+      description: 'A real-time college bus transit tracking web application providing accurate routing, ETA updates, and schedule management for student commuters.',
       features: [
-        'Multi-scheme information lookup',
-        'Announcement and notice board',
-        'Citizen grievance submission',
-        'Responsive for low-bandwidth use',
+        'Real-time transit location tracking',
+        'Interactive route & stop mapping',
+        'Commuter arrival notifications',
       ],
-      tech: ['HTML', 'CSS', 'JavaScript', 'Python', 'SQL'],
-      github: 'https://github.com/kondapatirahul',
+      tech: ['HTML', 'CSS', 'JavaScript', 'Firebase', 'Leaflet.js'],
+      github: 'https://github.com/kondapatirahul', // profile URL as fallback
       demo: '',
+      doc: ''
     },
     {
       id: 'food-recipe',
       emoji: '🍳',
       title: 'Food Recipe Application',
-      role: 'Front-End Developer',
-      duration: '2023',
+      role: 'Full Stack Developer',
+      duration: '2025',
       status: 'built',
-      description: 'A clean, responsive recipe discovery app that allows users to search, filter by cuisine and dietary preferences, and save favourite recipes.',
+      category: 'Full Stack / Mobile',
+      description: 'A responsive mobile application for recipe discovery, diet-based filtering, and ingredient checklist management.',
       features: [
-        'Recipe search with filters',
-        'Cuisine and dietary tags',
-        'Save and bookmark favourites',
-        'Step-by-step instruction layout',
+        'Cross-platform Flutter application UI',
+        'Cuisine and dietary search filtering',
+        'Secure REST API backend integration',
       ],
-      tech: ['HTML5', 'CSS3', 'JavaScript', 'REST API'],
-      github: 'https://github.com/kondapatirahul',
+      tech: ['Flutter', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript'],
+      github: 'https://github.com/kondapatirahul', // profile URL as fallback
       demo: '',
+      doc: ''
     },
     {
       id: 'api-testing',
       emoji: '🔌',
       title: 'API Testing Framework',
       role: 'QA Automation Engineer',
-      duration: '2024',
+      duration: '2026',
       status: 'active',
+      category: 'QA Automation / Software Eng.',
       description: 'A structured REST API testing framework using Postman and Newman for automated collection runs, with detailed HTML reporting and CI pipeline integration.',
       features: [
         'Postman collections with environment variables',
@@ -121,7 +130,28 @@
       tech: ['Postman', 'Newman', 'JavaScript', 'GitHub Actions', 'REST API', 'JSON'],
       github: 'https://github.com/kondapatirahul',
       demo: '',
+      doc: ''
     },
+    {
+      id: 'village-portal',
+      emoji: '🏘️',
+      title: 'Village Development Information Portal',
+      role: 'Full Stack Developer',
+      duration: '2023',
+      status: 'built',
+      category: 'Web Development',
+      description: 'A citizen-facing information portal for rural village development data, providing access to schemes, announcements, and government services in a simple, accessible interface.',
+      features: [
+        'Multi-scheme information lookup',
+        'Announcement and notice board',
+        'Citizen grievance submission',
+        'Responsive for low-bandwidth use',
+      ],
+      tech: ['HTML', 'CSS', 'JavaScript', 'Python', 'SQL'],
+      github: '',
+      demo: 'https://nexus-village.lovable.app/',
+      doc: ''
+    }
   ];
 
   var STATUS_LABEL = { active: 'Active', learning: 'Learning', built: 'Built' };
@@ -136,6 +166,11 @@
       return '<li class="project-card__feature">' + f + '</li>';
     }).join('');
 
+    var githubBtn = p.github
+      ? '<a href="' + p.github + '" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm" aria-label="GitHub repository for ' + p.title + '">'
+      + '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>GitHub</a>'
+      : '';
+
     var demoBtn = p.demo
       ? '<a href="' + p.demo + '" target="_blank" rel="noopener noreferrer" class="btn btn--ghost btn--sm" aria-label="Live demo of ' + p.title + '">'
       + '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
@@ -143,11 +178,19 @@
       + '<polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>Live Demo</a>'
       : '';
 
+    var docBtn = p.doc
+      ? '<a href="' + p.doc + '" target="_blank" rel="noopener noreferrer" class="btn btn--ghost btn--sm" aria-label="Documentation for ' + p.title + '">'
+      + '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+      + '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>Docs</a>'
+      : '';
+
     return '<article class="project-card reveal glow-card" role="article" aria-label="' + p.title + ' project">'
       + '<div class="project-card__img-wrap">'
       + '<div class="project-card__img-placeholder" aria-hidden="true">' + p.emoji + '</div>'
-      + '<div class="project-card__badges"><span class="project-card__badge project-card__badge--' + p.status + '">'
-      + (STATUS_LABEL[p.status] || p.status) + '</span></div></div>'
+      + '<div class="project-card__badges">'
+      + '<span class="project-card__badge project-card__badge--' + p.status + '">' + (STATUS_LABEL[p.status] || p.status) + '</span>'
+      + '<span class="project-card__badge project-card__badge--category">' + p.category + '</span>'
+      + '</div></div>'
       + '<div class="project-card__body">'
       + '<h3 class="project-card__title">' + p.title + '</h3>'
       + '<div class="project-card__meta" aria-label="Project metadata">'
@@ -157,9 +200,9 @@
       + '<ul class="project-card__features" aria-label="Key features">' + features + '</ul>'
       + '<div class="project-card__tech" aria-label="Technologies used">' + techTags + '</div>'
       + '<div class="project-card__actions">'
-      + '<a href="' + p.github + '" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm" aria-label="GitHub repository for ' + p.title + '">'
-      + '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/></svg>GitHub</a>'
+      + githubBtn
       + demoBtn
+      + docBtn
       + '</div></div></article>';
   }
 

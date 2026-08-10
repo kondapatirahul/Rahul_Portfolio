@@ -6,9 +6,18 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
-  // 1. Render project cards (before scroll-reveal observer attaches)
+  // 1. Render dynamic contents (before scroll-reveal observer attaches)
+  if (window.PortfolioSkills) {
+    window.PortfolioSkills.init();
+  }
   if (window.PortfolioProjects) {
     window.PortfolioProjects.init();
+  }
+  if (window.PortfolioCertifications) {
+    window.PortfolioCertifications.init();
+  }
+  if (window.PortfolioHackathons) {
+    window.PortfolioHackathons.init();
   }
 
   // 2. Scroll behaviours (navbar, reveal, active nav, scroll-top)
@@ -24,10 +33,11 @@ document.addEventListener('DOMContentLoaded', function () {
   // 4. Typing animation in hero
   if (window.PortfolioTyping) {
     window.PortfolioTyping.init('#typing-role', [
-      'QA Automation Engineer',
-      'SDET',
       'Full Stack Developer',
-      'Software Testing Enthusiast'
+      'QA Automation Engineer',
+      'Aspiring SDET',
+      'Software Developer',
+      'Technology Enthusiast'
     ]);
   }
 
@@ -36,7 +46,16 @@ document.addEventListener('DOMContentLoaded', function () {
     window.PortfolioCounters.init();
   }
 
-  // 6. Year in footer
+  // 6. Theme Toggle Logic
+  const themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    themeToggle.addEventListener('click', function () {
+      const isDark = document.body.classList.toggle('dark-mode');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    });
+  }
+
+  // 7. Year in footer
   const yearEl = document.getElementById('footer-year');
   if (yearEl) {
     yearEl.textContent = new Date().getFullYear();
